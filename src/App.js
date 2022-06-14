@@ -1,6 +1,16 @@
+import About from './components/About'
+import Hero from './components/Hero'
+import Nav from './components/Nav'
+import Projects from './components/Projects'
+
 function App() {
   return (
-    <div className="App">Hi, My name is Jacob and I'm a React Developer</div>
+    <div>
+      <Nav />
+      <Hero />
+      <Projects />
+      <About />
+    </div>
   )
 }
 
