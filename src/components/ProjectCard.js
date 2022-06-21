@@ -2,7 +2,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 export default function ProjectCard() {
   return (
-    <div className="flex flex-col rounded-md p-5 shadow-lg duration-200 hover:scale-105">
+    <div className="flex flex-col rounded-md p-5 shadow-lg duration-300 hover:scale-105">
       <h3 className="text-2xl">Project Name</h3>
       <div className="w-full self-center">
         <img
