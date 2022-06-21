@@ -6,7 +6,7 @@ import TechStack from './components/TechStack'
 
 function App() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <Nav />
       <Hero />
       <Projects />
