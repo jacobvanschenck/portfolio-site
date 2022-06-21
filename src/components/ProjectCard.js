@@ -1,6 +1,8 @@
+import { AiFillGithub } from 'react-icons/ai'
+
 export default function ProjectCard() {
   return (
-    <div className="flex flex-col rounded-md border-2 border-black p-5">
+    <div className="flex flex-col rounded-md p-5 shadow-lg duration-200 hover:scale-105">
       <h3 className="text-2xl">Project Name</h3>
       <div className="w-full self-center">
         <img
@@ -19,11 +21,12 @@ export default function ProjectCard() {
         <li>TailwindCSS</li>
       </ul>
       <div className="flex justify-center space-x-4 pt-5 text-white">
-        <button className="rounded-md bg-indigo-500 px-5 py-3 transition-shadow duration-200 hover:shadow-lg hover:shadow-indigo-500/50">
-          View Sorce
+        <button className="flex items-center rounded-md bg-indigo-500 px-5 py-3 transition-shadow duration-200 hover:shadow-lg hover:shadow-indigo-500/50">
+          <AiFillGithub className="mr-2 text-xl" />
+          Github
         </button>
         <button className="rounded-md bg-teal-500 px-5 py-3 transition-shadow duration-200 hover:shadow-lg hover:shadow-teal-500/50">
-          Visit Live Site
+          Live Site
         </button>
       </div>
     </div>
