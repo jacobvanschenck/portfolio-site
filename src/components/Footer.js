@@ -1,9 +1,4 @@
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillTwitterCircle,
-  AiOutlineSend,
-} from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin, AiOutlineSend } from 'react-icons/ai'
 
 export default function Footer() {
   return (
@@ -13,6 +8,8 @@ export default function Footer() {
         <a
           className="flex items-center px-2 hover:text-blue-400"
           href="https://github.com/jacobvanschenck"
+          target="_blank"
+          rel="noreferrer"
         >
           <AiFillGithub className="mr-1 text-xl" />
           Github
@@ -20,6 +17,8 @@ export default function Footer() {
         <a
           className="flex items-center px-2 hover:text-blue-400"
           href="https://linkedin.com/in/jacobvanschenck"
+          target="_blank"
+          rel="noreferrer"
         >
           <AiFillLinkedin className="mr-1 text-xl" />
           LinkedIn
@@ -27,6 +26,8 @@ export default function Footer() {
         <a
           className="flex items-center px-2 hover:text-blue-400"
           href="mailto:jacob.vanschenck@gmail.com"
+          target="_blank"
+          rel="noreferrer"
         >
           <AiOutlineSend className="mr-1 text-xl" />
           Email

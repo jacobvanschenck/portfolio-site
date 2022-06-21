@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Nav() {
   return (
     <nav className="fixed z-50 flex w-full justify-around bg-green-500 shadow-lg">
@@ -30,12 +32,12 @@ export default function Nav() {
           </a>
         </li>
         <li className="h-full w-full border-b-4 border-red-400 bg-red-400 py-3 px-6 transition duration-200 hover:border-solid hover:border-blue-400 hover:text-blue-400 ">
-          <a
+          <Link
             className=" focus:border-blue-400 focus:text-blue-400"
-            href="/resume"
+            to="/resume"
           >
             Resume
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
