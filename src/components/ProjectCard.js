@@ -1,7 +1,7 @@
 import { AiFillGithub } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
-export default function ProjectCard({ name, imgUrl, gitUrl, siteUrl, route }) {
+export default function ProjectCard({ name, imgUrl, route }) {
   return (
     <Link className="flex-col" to={`/${route}`}>
       <div className="group relative rounded-full shadow-lg duration-300 hover:scale-105">
@@ -12,7 +12,7 @@ export default function ProjectCard({ name, imgUrl, gitUrl, siteUrl, route }) {
           <img
             className="rounded-full object-contain"
             src={imgUrl}
-            alt="Project name"
+            alt={name}
           />
         </div>
       </div>

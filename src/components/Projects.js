@@ -1,4 +1,7 @@
 import ProjectCard from './ProjectCard'
+import turboRunnersImg from '../assets/TurboRunners.png'
+import dexImg from '../assets/MyDex.png'
+import walletImg from '../assets/MultisigWallet.png'
 
 export default function Projects() {
   return (
@@ -7,17 +10,13 @@ export default function Projects() {
       <div className="flex flex-row space-x-10 px-32 py-10">
         <ProjectCard
           name={'Turbo Runners'}
-          imgUrl={'https://via.placeholder.com/350'}
+          imgUrl={turboRunnersImg}
           route={'project1'}
         />
+        <ProjectCard name={'MyDex'} imgUrl={dexImg} route={'project1'} />
         <ProjectCard
-          name={'Turbo Runners'}
-          imgUrl={'https://via.placeholder.com/350'}
-          route={'project1'}
-        />
-        <ProjectCard
-          name={'Turbo Runners'}
-          imgUrl={'https://via.placeholder.com/350'}
+          name={'MultisigWallet'}
+          imgUrl={walletImg}
           route={'project1'}
         />
       </div>
